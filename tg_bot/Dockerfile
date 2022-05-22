@@ -5,7 +5,7 @@ WORKDIR /app
 
 ENV SCRAPY_CONTAINER="localhost"
 ENV SCRAPY_PORT=9080
-ENV TG_API_KEY=<API KEY MUST BE HERE>
+ENV TG_API_KEY=<5165049475:AAHI0ILfH3pbizH3IJLFfpcXtmmjLdGu6WQ>
 COPY bot_requirements.txt /app
 RUN python -m pip install --upgrade pip
 RUN python -m pip install wheel
